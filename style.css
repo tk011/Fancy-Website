@@ -1,0 +1,63 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+#top {
+	width: 100%;
+	height: 8em;
+	background-color: rgb(240,240,240);
+	margin: 0;
+	padding: 0;
+}
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+	user-select: none;
+	transition: all 2s;
+}
+#titleText {
+	font-family: Open sans;
+	font-size: 40px;
+}
+#menu {
+	background-color: rgb(220,220,220);
+	height: 3em;
+	display:flex;
+}
+.tab {
+	width: 1em;
+	height: 100%;
+	margin: 0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 30px 0px 30px;
+	background-color: rgb(200,200,200);
+	transition: background-color 0.2s;
+	user-select:none;
+	cursor: default;
+}
+.tab:hover {
+	background-color:rgb(220,220,220);
+}
+.tab:active {
+	background-color: rgb(240,240,240);
+}
+.tabText {
+	margin: 0;
+	font-family: Open sans;
+}
+#content {
+	margin: 15px;
+}
+#infoContent {
+	display: none;
+	font-family: Open sans;
+}
+#testContent {
+	display: none;
+	font-family: Open sans;
+}
