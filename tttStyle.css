@@ -1,0 +1,34 @@
+#tttGame {
+	background-color: rgb(220,220,220);
+	width: 13em;
+	height: 13em;
+	margin-left: 20em;
+}
+.row {
+	width: 100%;
+	height: 33%;
+	background-color: rgb(200,200,200);
+	display:flex;
+}
+#row3 {
+	height: 34%;
+}
+.tttField {
+	margin: 0px;
+	width: 33%;
+	height: 100%;
+	background-color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+#ttt1 {
+	width: 34%;
+}
+#ttt4 {
+	width: 34%;
+}
+#ttt7 {
+	width: 34%;
+}
