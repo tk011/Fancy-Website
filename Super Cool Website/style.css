@@ -1,0 +1,123 @@
+html, body {
+	margin:0;
+	padding:0;
+	background-color:black;
+	height: 100%;
+}
+#container {
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#left {
+	float:left;
+	width: 20%;
+	height:100%;
+	background-color: rgb(40,40,40);
+	margin:0;
+	padding:0;
+}
+#right {
+	float:right;
+	width:20%;
+	height: 100%;
+	background-color: rgb(40,40,40);
+	margin:0;
+	padding:0;
+}
+#center {
+	margin: 0 auto;
+	width: 60%;
+	height: 100%;
+	display:inline-block;
+	background-color: rgb(20,20,20);
+	margin:0;
+	padding:0;
+}
+.top {
+	margin:0;
+	width: 100%;
+	background-color:rgb(30,30,30);
+}
+.title {
+	margin:0;
+	padding:10px;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+	user-select:none;
+}
+.coolDiv {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width:100%;
+}
+.coolText {
+	font-family: Comic sans MS;
+	color:white;
+	text-align: center;
+	width:200px;
+	height:30px;
+	margin-top:100px;
+	user-select:none;
+}
+.spinnerDiv {
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin-top:100px;
+}
+.spinBtn {
+	user-select:none;
+	border-radius: 5px;
+	outline:none;
+	padding:15px 50px;
+	font-size:25px;
+	font-family: Open sans;
+}
+.moneyDiv {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.moneyText {
+	color: white;
+	user-select:none;
+}
+#upgrades {
+	height:100%;
+	width:100%;
+}
+#upgradesText {
+	color:white;
+	font-size:20px;
+	user-select:none;
+}
+#spinPowUp {
+	background-color:rgb(50,50,50);
+	height: 10%;
+	width:100%;
+}
+#spinPowText {
+	color: white;
+	font-size: 20px;
+	user-select:none;
+}
+#spinPowAmount {
+	color: white;
+	font-size: 30px;
+	float:left;
+	margin-top:-5px;
+	user-select:none;
+}
+#spinPowBtn {
+	float:left;
+	border-radius: 20px;
+	font-family: Open sans;
+	margin-top: 5px;
+	background-color:green;
+	border-color: darkgreen;
+	user-select:none;
+	outline: none;
+}
